@@ -1,0 +1,166 @@
+@media (max-width: 767px) and (min-width: 320px) {
+    .center {
+        padding-left: calc(50% - 181px);
+        padding-right: calc(50% - 181px);
+    }
+
+    .header {
+        padding: 0 16px;
+    }
+
+    .logo {
+        gap: 41px;
+    }
+
+    .user__icon {
+        display: none;
+    }
+
+    .cart__icon {
+        display: none;
+    }
+
+    .promo {
+        height: 363px;
+        justify-content: center;
+    }
+
+    .promo__img {
+        display: none;
+    }
+
+    .vertical__stripe {
+        margin-top: 150px;
+        width: 12px;
+        height: 70px;
+        flex-shrink: 0;
+
+    }
+
+    .promo__text {
+        padding-top: 148px;
+        width: 236px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .heading__1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .heading__2 {
+        font-size: 20px;
+    }
+
+    .sale {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+
+        &__women {
+            width: 343px;
+            height: 247px;
+            flex-shrink: 0;
+        }
+
+        &__men {
+            width: 343px;
+            height: 247px;
+            flex-shrink: 0;
+        }
+
+        &__kids {
+            width: 343px;
+            height: 247px;
+            flex-shrink: 0;
+        }
+
+        .item__big {
+            width: 343.262px;
+            height: 111px;
+            flex-shrink: 0;
+        }
+
+        .item__content {
+            padding-top: 101.75px;
+        }
+
+        .item__content__big {
+            padding-top: 30px;
+        }
+    }
+
+    .catalog__head {
+        padding-bottom: 64.7px;
+
+    }
+
+    .catalog__content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-bottom: 40.61px;
+    }
+
+    .catalog__text {
+        margin-left: 13.5px;
+    }
+
+
+    .item__card {
+        width: 358px;
+        margin-left: 24.41px;
+    }
+
+    .advantages {
+        height: 610px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        &__block {
+            margin-top: 10px;
+        }
+    }
+
+    .subscribe {
+        height: 550px;
+        background-size: cover;
+
+        &__background {
+            padding-top: 64px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 48px;
+            flex-direction: column;
+        }
+
+        .email_input {
+            width: 150px;
+        }
+    }
+
+    .references {
+        height: 143px;
+        display: flex;
+        gap: 40px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+
+
+        &__links {
+            padding-top: 43px;
+        }
+    }
+}
