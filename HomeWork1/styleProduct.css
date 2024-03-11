@@ -142,18 +142,16 @@ label {
 .main-product__center {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #FFF;
   background-color: #fff;
   border: 1px solid #EAEAEA;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 119px;
   max-width: 900px;
-  margin: -65px auto 0;
+  margin: -60px auto 0;
   position: relative;
   z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .main-product__description {
   display: flex;
@@ -166,16 +164,12 @@ label {
   line-height: 17px;
   color: #F16D7F;
 }
-.main-product__description span {
-  width: 63px;
-  border: 2px solid #F16D7F;
-  margin: 12.1px 0;
-}
 .main-product__description h2 {
   font-size: 18px;
   font-weight: 300;
   line-height: 22px;
   color: #4D4D4D;
+  margin-top: 12px;
 }
 .main-product__description__text {
   text-align: center;
@@ -190,11 +184,9 @@ label {
   font-weight: 300;
   line-height: 29px;
   color: #F16D7F;
-}
-.main-product__description__features {
-  margin: 130.09px 0 48.91px;
-  display: flex;
-  gap: 42px;
+  color: #F16D7F;
+  margin-top: 32px;
+  margin-bottom: 65px;
 }
 .main-product__description__features button {
   font-family: Lato;
@@ -207,7 +199,7 @@ label {
   cursor: pointer;
 }
 .main-product__description__button {
-  padding: 14.62px 57px 8.57px 24px;
+  padding: 14.62px 64px 8.57px 24px;
   display: flex;
   align-items: center;
   gap: 22.91px;
@@ -328,13 +320,57 @@ label {
   color: #F16D7F;
 }
 
-.subscribe {
+.sort {
+  margin-top: 65px;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 18px;
+}
+.sort__details {
+  position: relative;
+}
+.sort__summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sort__check {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #6F6E6E;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__heading {
+  color: #6F6E6E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort__box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #FFF;
+  box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+  padding: 7px 30px 11px 9px;
+  position: absolute;
+  left: -9px;
+  top: 22px;
+}
+
+.footer .subscribe {
   background-image: url(./img/footer/background.svg);
   height: 448px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.subscribe__background {
+.footer .subscribe__background {
   padding-top: 64px;
   height: 100%;
   width: 100%;
@@ -344,19 +380,19 @@ label {
   flex-direction: row;
   gap: 327px;
 }
-.subscribe__info {
+.footer .subscribe__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.subscribe .img__info {
+.footer .subscribe .img__info {
   width: 96px;
   height: 96px;
   flex-shrink: 0;
   margin-bottom: 30px;
 }
-.subscribe__info__text {
+.footer .subscribe__info__text {
   color: #222224;
   text-align: center;
   font-size: 20px;
@@ -367,19 +403,19 @@ label {
   height: 99px;
   flex-shrink: 0;
 }
-.subscribe__form {
+.footer .subscribe__form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.subscribe__headings {
+.footer .subscribe__headings {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.subscribe__title {
+.footer .subscribe__title {
   color: #222224;
   text-align: center;
   font-size: 24px;
@@ -387,7 +423,7 @@ label {
   font-weight: 700;
   line-height: 167.2%;
 }
-.subscribe__subtitle {
+.footer .subscribe__subtitle {
   color: #222224;
   font-size: 18px;
   font-style: normal;
@@ -395,10 +431,10 @@ label {
   line-height: 167.2%;
   margin-bottom: 32px;
 }
-.subscribe .input_form {
+.footer .subscribe .input_form {
   display: flex;
 }
-.subscribe .email_input {
+.footer .subscribe .email_input {
   width: 256px;
   height: 49px;
   flex-shrink: 0;
@@ -408,7 +444,7 @@ label {
   fill: #E1E1E1;
   border: none;
 }
-.subscribe .input_line_button {
+.footer .subscribe .input_line_button {
   width: 100px;
   height: 49px;
   background-color: #F16D7F;
@@ -421,8 +457,7 @@ label {
   line-height: normal;
   border: 1px solid #F16D7F;
 }
-
-.references {
+.footer .references {
   height: 79px;
   background-color: #222224;
   display: flex;
@@ -430,19 +465,19 @@ label {
   justify-content: center;
   align-items: center;
 }
-.references__info {
+.footer .references__info {
   color: #FBFBFB;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.references__links {
+.footer .references__links {
   display: flex;
   gap: 7.29px;
 }
-.references .social__media {
+.footer .references .social__media {
   width: 31.451px;
   height: 32px;
   border: none;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=styleProduct.css.map */
