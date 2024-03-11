@@ -26,7 +26,6 @@ img {
     padding-right: calc(50% - $width_site / 2);
 }
 
-// шапка (index, product)
 .header {
     min-height: 75px;
     max-width: 1600px;
@@ -62,7 +61,6 @@ label {
     display: none;
 }
 
-// всплывающие меню (index, product)
 .mobile-menu {
     position: absolute;
     top: 75px;
@@ -101,7 +99,6 @@ label {
     }
 }
 
-// вторая шапка (product)
 .top-head {
     background-color: #F8F3F4;
     padding-top: 60px;
@@ -159,28 +156,22 @@ label {
 
         &-slide img {
             display: flex;
-            // object-fit: cover;
         }
     }
 
     &__center {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
         background: #FFF;
         background-color: #fff;
         border: 1px solid #EAEAEA;
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding: 64px 119px;
         max-width: 900px;
-        margin: -65px auto 0;
+        margin: -60px auto 0;
         position: relative;
         z-index: 10;
-
-        display: flex;
-
-        flex-direction: column;
-
-        align-items: center;
     }
 
     &__description {
@@ -194,12 +185,6 @@ label {
             line-height: 17px;
             color: $selectivePink;
         }
-
-        // & span {
-        //     width: 63px;
-        //     border: 2px solid $selectivePink;
-        //     margin: 12.1px 0;
-        // }
 
         & h2 {
             font-size: 18px;

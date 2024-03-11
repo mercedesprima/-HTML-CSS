@@ -142,18 +142,16 @@ label {
 .main-product__center {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #FFF;
   background-color: #fff;
   border: 1px solid #EAEAEA;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 64px 119px;
   max-width: 900px;
-  margin: -65px auto 0;
+  margin: -60px auto 0;
   position: relative;
   z-index: 10;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .main-product__description {
   display: flex;
