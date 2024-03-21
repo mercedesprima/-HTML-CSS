@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница продукта</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Open+Sans:wght@600;700;800&family=Raleway:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styleCart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/header/logo.svg" alt="logo"></a>
+
+            <img src="img/header/search_icon.svg" alt="search icon">
+        </div>
+        <nav class="header__right">
+            <label for="header__menu"><img class="menu_icon" src="img/header/menu_icon.svg" alt="menu icon"></label>
+            <a class="header__links" href="registration.html"><img src="img/header/user_icon.svg" alt="user__icon"></a>
+            <a class="header__links" href="cart.html"><img src="img/header/cart.svg" alt="cart icon"></a>
+        </nav>
+        <input class="header__dropdown" id="header__menu" type="checkbox">
+        <div class="mobile__menu">
+
+            <h3 class="mobile__menu__heading">MENU</h3>
+            <div class="mobile__menu__box">
+                <div class="mobile__menu__item">
+                    <a href="catalog.html" class="mobile__menu__title">MAN</a>
+                    <ul class="mobile__menu__list">
+                        <li><a class="mobile__menu__link" href="#">Accessories</a></li>
+                        <li><a class="mobile__menu__link" href="#">Bags</a></li>
+                        <li><a class="mobile__menu__link" href="#">Denim</a></li>
+                        <li><a class="mobile__menu__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="mobile__menu__item">
+                    <a href="catalog.html" class="mobile__menu__title">WOMAN</a>
+                    <ul class="mobile__menu__list">
+                        <li><a class="mobile__menu__link" href="">Accessories</a></li>
+                        <li><a class="mobile__menu__link" href="">Bags</a></li>
+                        <li><a class="mobile__menu__link" href="">Denim</a></li>
+                        <li><a class="mobile__menu__link" href="">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="mobile__menu__item">
+                    <a href="catalog.html" class="mobile__menu__title">KIDS</a>
+                    <ul class="mobile__menu__list">
+                        <li><a class="mobile__menu__link" href="">Accessories</a></li>
+                        <li><a class="mobile__menu__link" href="">Bags</a></li>
+                        <li><a class="mobile__menu__link" href="">Denim</a></li>
+                        <li><a class="mobile__menu__link" href="">T-Shirts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-head center">
+        <h2 class="top-head__heading">SHOPPING CART</h2>
+    </div>
+    <main class="product center">
+        <section class="product__cards">
+            <div class="product__card card_1">
+                <div class="product__card__img"><img src="/img/catalog/item1.svg" alt="item photo"></div>
+                <div class="product__card__info">
+                    <h2 class="product__card__info__title">MANGO PEOPLE <br> T-SHIRT</h2>
+                    <ul class="product__card__info__description">
+                        <li class="features">Price: <span class="features__pink">$300</span></li>
+                        <li class="features">Color:<span class="features__grey">red</span> </li>
+                        <li class="features">Size:<span class="features__grey">XI</span></li>
+                        <li class="features"> <label for="item__quantity">Quantity:</label> <input type="number"
+                                id="item__quantity"> </li>
+                </div>
+                </ul>
+                <button class="vector__close"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 18 18" fill="none">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg></button>
+
+            </div>
+            <div class="product__card card_2">
+                <div class="product__card__img"><img src="/img/catalog/cat.item_2.svg" alt="item photo"></div>
+                <div class="product__card__info">
+                    <h2 class="product__card__info__title">MANGO PEOPLE <br> T-SHIRT</h2>
+                    <ul class="product__card__info__description">
+                        <li class="features">Price: <span class="features__pink">$300</span></li>
+                        <li class="features">Color:<span class="features__grey">red</span> </li>
+                        <li class="features">Size:<span class="features__grey">XI</span></li>
+                        <li class="features"> <label for="item__quantity">Quantity:</label> <input type="number"
+                                id="item__quantity"> </li>
+                </div>
+                </ul>
+                <button class="vector__close"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 18 18" fill="none">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg></button>
+
+            </div>
+            <div class="product__buttons">
+                <bottom class="product__button">CLEAR SHOPPING CART</bottom>
+                <bottom class="product__button">CONTINUE SHOPPING</bottom>
+            </div>
+        </section>
+        <section class="product__order__info">
+            <form class="adress__form">
+                <h2 class="adress__form__title">SHIPPING ADRESS</h2>
+                <input class="adress__form__input" type="text" placeholder="Country">
+                <input class="adress__form__input" type="text" placeholder="State">
+                <input class="adress__form__input" type="number" placeholder="Postcode / Zip">
+                <input class="adress__form__button" type="submit" value="GET A QUOTE">
+
+
+            </form>
+            <div class="product__paybox">
+                <p class="product__paybox__subtotal">SUB TOTAL</p>
+                <p class="product__paybox__total">GRAND TOTAL </p>
+                <div class="product__paybox__line">
+                </div>
+                <button class="product__paybox__button">PROCEED TO CHECKOUT</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="subscribe center">
+            <div class="subscribe__background">
+                <div class="subscribe__info">
+                    <img src="./img/footer/face.svg" class="img__info" alt="face">
+                    <p class="subscribe__info__text">&laquo;Vestibulum quis porttitor dui! Quisque viverra
+                        nunc&nbsp;mi, <i>
+                            a
+                            pulvinar purus condimentum&raquo;</i></p>
+                </div>
+                <div class="subscribe__form">
+                    <div class="subscribe__headings">
+                        <h5 class="subscribe__title">SUBSCRIBE </h5>
+                        <p class="subscribe__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <form action="#" class="input_form">
+                        <input type="email" required placeholder="Enter Your Email" class="email_input">
+                        <button type="submit" class="input_line_button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="references">
+            <p class="references__info">&copy;&nbsp;2023 Brand All Rights Reserved.</p>
+            <div class="references__links">
+                <a class="social__media" href="#"><img src="./img/footer/pinterest.svg" alt="pinterest"></a>
+                <a class="social__media" href="#"><img src="./img/footer/twitter.svg" alt="twitter"></a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

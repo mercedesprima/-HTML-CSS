@@ -1,0 +1,214 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+    .center {
+        padding-left: calc(50% - 370px);
+        padding-right: calc(50% - 370px);
+    }
+
+    .top-head__heading {
+        padding-left: 16px;
+    }
+
+    .promo {
+        &__title {
+            font-size: 40px;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+        }
+
+        &__img {
+            height: 369px;
+            width: 384px;
+        }
+
+        &__heading {
+            font-size: 22px;
+        }
+    }
+
+    .sale {
+        padding-bottom: 110px;
+        grid-template-columns: repeat(3, 232px);
+        gap: 20px;
+
+        &__women {
+            width: 231.973px;
+            height: 167.617px;
+            flex-shrink: 0;
+        }
+
+        &__men {
+            width: 231.973px;
+            height: 167.617px;
+            flex-shrink: 0;
+        }
+
+        &__kids {
+            width: 231.973px;
+            height: 167.617px;
+            flex-shrink: 0;
+        }
+
+        &__accessories {
+            width: 734.581px;
+            height: 116.043px;
+            flex-shrink: 0;
+        }
+    }
+
+    .catalog {
+        padding-bottom: 32.48px;
+    }
+
+    .item__content {
+        padding-top: 59px;
+    }
+
+    .item__content__big {
+        padding-top: 33px;
+    }
+
+    .catalog__head {
+        padding-bottom: 72px;
+        gap: 3.3px;
+    }
+
+    .catalog__content {
+        grid-template-columns: repeat(2, 360px);
+    }
+
+    .item__card:last-child:nth-child(2n+1) {
+        display: none;
+    }
+
+    .filter__sort {
+        height: 81px;
+        padding-top: 24px;
+        justify-content: space-around;
+    }
+
+    .registration {
+        padding-top: 40px;
+        padding-left: 15.51px;
+        gap: 21.5px;
+
+        &__loyalty {
+
+            &__title,
+            &__text,
+            &__li {
+                padding-bottom: 22px;
+                color: #000;
+                font-size: 16px;
+            }
+
+        }
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        .product__cards {
+            align-items: center;
+
+            .product__card {
+                width: 734px;
+
+                &__info {
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+                .vector__close {
+                    padding-top: 28px;
+                    margin-right: 24px;
+                }
+
+            }
+
+            .product__buttons {
+                display: flex;
+                justify-content: center;
+                gap: 48px;
+                margin-top: 22px;
+            }
+        }
+
+        .product__order__info {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+
+
+            .adress__form {
+                margin-top: 60px;
+
+                &__input {
+                    width: 360px;
+                }
+            }
+
+            .product__paybox {
+                margin-top: 119px;
+                height: 150px;
+            }
+        }
+    }
+
+    .main__product__bottom__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 16px;
+    }
+
+    .product__cat:last-child:nth-child(2n+1) {
+        display: none;
+    }
+
+    .footer {
+        .advantages {
+            height: 610px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            &_block {
+                margin-top: 28px;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .footer_body {
+            height: 693px;
+            background-size: cover;
+        }
+
+        .subscribe {
+            height: 100%;
+        }
+
+        .subscribe__background {
+            padding-top: 64px;
+            padding-bottom: 146px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .references {
+            gap: 305px;
+        }
+    }
+}
