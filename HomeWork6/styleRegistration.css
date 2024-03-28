@@ -701,7 +701,8 @@ img {
   .product__cards .product__card__info__description .features {
     font-size: 14px;
   }
-  .product__cards .product__card__info__description .features #item__quantity {
+  .product__cards .product__card__info__description .features #item__quantity_1,
+  .product__cards .product__card__info__description .features #item__quantity_2 {
     width: 24px;
     height: 15px;
     flex-shrink: 0;

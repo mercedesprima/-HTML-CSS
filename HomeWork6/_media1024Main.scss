@@ -427,7 +427,8 @@
                         .features {
                             font-size: 14px;
 
-                            #item__quantity {
+                            #item__quantity_1,
+                            #item__quantity_2 {
                                 width: 24px;
                                 height: 15px;
                                 flex-shrink: 0;
