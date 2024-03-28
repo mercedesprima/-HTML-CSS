@@ -131,31 +131,30 @@ img {
     align-items: center;
     justify-content: space-between;
 
-
     &__heading {
         color: $selectivePink;
         font-size: 24px;
         font-weight: 400;
         word-wrap: break-word
     }
+
+    .breadcrumbs {
+        display: flex;
+        color: #636363;
+        font-size: 14px;
+
+        &__link:last-child {
+            color: $selectivePink;
+            font-weight: 700;
+        }
+
+        &__link:not(:last-child)::after {
+            content: '/';
+            padding: 0 8px;
+        }
+    }
 }
 
-
-.breadcrumbs {
-    display: flex;
-    color: #636363;
-    font-size: 14px;
-
-    &__link:last-child {
-        color: $selectivePink;
-        font-weight: 700;
-    }
-
-    &__link:not(:last-child)::after {
-        content: '/';
-        padding: 0 8px;
-    }
-}
 
 .main__product {
     background-color: white;
